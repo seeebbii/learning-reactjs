@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Projects from './Projects';
-import SocialProfiles from './SocialProfiles';
+import Projects from "./Projects";
+import SocialProfiles from "./SocialProfiles";
 
 class App extends Component {
   // constructor() {
@@ -20,7 +20,7 @@ class App extends Component {
     this.setState({ displayBio: !this.state.displayBio });
   };
 
-  render(){
+  render() {
     // ! CHECKS CAN BE WRITTEN WITHIN THE RENDER METHO
 
     let bio = (

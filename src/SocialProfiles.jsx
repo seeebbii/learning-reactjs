@@ -17,7 +17,11 @@ class SocialProfile extends Component {
 
     return (
       <div style={{ display: "inline-block" }}>
-        <a href={ this.validateEmail(link) ? "mailto:" + link : link} target="_blank" rel="noreferrer">
+        <a
+          href={this.validateEmail(link) ? "mailto:" + link : link}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={image}
             alt="another_text"
